@@ -1,0 +1,11 @@
+.Box-image {
+    margin: 0 auto;
+    margin-top: 5em;
+    height: 20vh;
+    width: 20%;
+    background-color: maroon;
+}
+.boxes {
+    width: 100%;
+    display: flex;
+}

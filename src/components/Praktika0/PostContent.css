@@ -1,0 +1,17 @@
+.article {
+    width: 100vw;
+    display: flex;
+}
+
+.article div {
+    width: 100%;
+}
+.article p {
+    width: 100%;
+    text-align: center;
+}
+.postImg {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}

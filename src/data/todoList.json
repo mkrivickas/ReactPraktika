@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "task": "Meditate",
+        "status": false
+    },
+    {
+        "id": 2,
+        "task": "No alcohol at anyday",
+        "status": false
+    },
+    {
+        "id": 3,
+        "task": "Drink vitamins",
+        "status": false
+    },
+    {
+        "id": 4,
+        "task": "Jogging",
+        "status": false
+    },
+    {
+        "id": 5,
+        "task": "Learn",
+        "status": false
+    },
+    {
+        "id": 6,
+        "task": "Go to sleep @ 22:00",
+        "status": false
+    }
+]
