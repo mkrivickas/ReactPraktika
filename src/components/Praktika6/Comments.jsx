@@ -1,8 +1,10 @@
 import React from 'react';
 
 function Comments(props) {
-    let { data: comments } = props;
-    return <div>Comments</div>;
+    let { comments } = props;
+    return <div>
+        {comments.map((comment) => <li>{comment.name}</li>)}
+    </div>
 }
 
 export default Comments;

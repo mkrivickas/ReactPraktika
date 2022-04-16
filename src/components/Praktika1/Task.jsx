@@ -15,7 +15,10 @@ function Task() {
     }
 
     return (
-        <div className='col-3 border my-3 p-2 text-center'>
+        <div>
+            <h1>Užduotis 2</h1>
+            <div className='col-3 border my-3 p-2 text-center'>
+            
             <h3>{color ? 'Task is done!' : 'Task is not done.'}</h3>
             <p>
                 Some quick example text to build on the card title and make up
@@ -28,6 +31,8 @@ function Task() {
                 {color ? 'Done' : 'Mark as done!'}
             </button>
         </div>
+        </div>
+        
     );
 }
 

@@ -7,6 +7,7 @@ import Data from './data/Data.json';
 function Praktika0() {
     return (
         <div>
+            <h1>Užduotis 1</h1>
             <Header />
             <div className='article'>
                 {Data.map((post) => (

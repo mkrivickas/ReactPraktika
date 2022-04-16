@@ -30,7 +30,9 @@ function Praktika4() {
         setTask(tempArray);
     }
     return (
-        <div className='col-12 d-flex'>
+        <div>
+            <h1>Užduotis 5</h1>
+            <div className='col-12 d-flex'>
             <div className='col-4 d-flex flex-column text-center'>
                 <img src={task[0].img} alt='html' />
                 <h1>{task[0].h1}</h1>
@@ -74,6 +76,8 @@ function Praktika4() {
                 </button>
             </div>
         </div>
+        </div>
+        
     );
 }
 
